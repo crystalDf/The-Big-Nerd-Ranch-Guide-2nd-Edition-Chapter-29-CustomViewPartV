@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              tools:context=".MainActivity"
+              android:orientation="vertical">
+
+    <com.star.customviewpartv.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:titleText="hello world!"
+        app:titleTextColors="#FF0000"
+        app:titleTextSize="30sp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"/>
+
+    <com.star.customviewpartv.CustomImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:titleText="hello welcome!"
+        app:titleTextColors="#00FF00"
+        app:titleTextSize="20sp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"/>
+
+    <com.star.customviewpartv.CustomImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:titleText="raph!"
+        app:titleTextColors="#000000"
+        app:titleTextSize="12sp"
+        app:image="@drawable/bubble"
+        app:imageScaleType="center"/>
+
+    <com.star.customviewpartv.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:titleText="raph!"
+        app:titleTextColors="#0000FF"
+        app:titleTextSize="12sp"
+        app:image="@drawable/tmntraph"
+        app:imageScaleType="center"/>
+
+</LinearLayout>
