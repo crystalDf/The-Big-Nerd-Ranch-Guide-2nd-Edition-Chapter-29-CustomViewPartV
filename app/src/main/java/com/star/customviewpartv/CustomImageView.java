@@ -163,4 +163,5 @@ public class CustomImageView extends ImageView {
 
         canvas.drawBitmap(mImage, null, mImageBounds, mPaint);
     }
+
 }
